@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School Examination Portal</title>
+  <script src="network-check.js"></script>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f6fb;
+  color: #172554;
+}
+header {
+  background: #142d59;
+  color: white;
+  padding: 30px 15px;
+  text-align: center;
+}
+header h1 { margin: 0 0 8px; }
+main {
+  max-width: 950px;
+  margin: 30px auto;
+  padding: 15px;
+}
+h2 { margin-bottom: 18px; }
+.classes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+.card {
+  background: white;
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #00000010;
+}
+.card h3 { margin-top: 0; }
+a {
+  display: inline-block;
+  background: #2457a7;
+  color: white;
+  padding: 11px 16px;
+  border-radius: 7px;
+  text-decoration: none;
+  margin-top: 8px;
+}
+a:hover { background: #173c78; }
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #64748b;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>School Examination Portal</h1>
+  <p>Online Examination Centre</p>
+</header>
+
+<main>
+  <h2>Select Your Class</h2>
+
+  <div class="classes">
+
+    <div class="card">
+      <h3>Class 6</h3>
+      <p>View available examinations.</p>
+      <a href="class6.html">View Tests</a>
+    </div>
+
+    <div class="card">
+      <h3>Class 7</h3>
+      <p>View available examinations.</p>
+      <a href="class7.html">View Tests</a>
+    </div>
+
+    <div class="card">
+      <h3>Class 8</h3>
+      <p>View available examinations.</p>
+      <a href="class8.html">View Tests</a>
+    </div>
+
+    <div class="card">
+      <h3>Class 9</h3>
+      <p>View available examinations.</p>
+      <a href="class9.html">View Tests</a>
+    </div>
+
+    <div class="card">
+      <h3>Class 10</h3>
+      <p>View available examinations.</p>
+      <a href="class10.html">View Tests</a>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  School Examination Portal
+</footer>
+
+</body>
+</html>
