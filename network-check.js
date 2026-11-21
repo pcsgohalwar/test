@@ -1,7 +1,7 @@
 
 // SCHOOL NETWORK CHECK
 
-const SCHOOL_PUBLIC_IP = "49.43.88.83";
+const SCHOOL_PUBLIC_IP = "59.183.113.80";
 
 async function checkSchoolNetwork() {
     const resultBox = document.createElement("div");
